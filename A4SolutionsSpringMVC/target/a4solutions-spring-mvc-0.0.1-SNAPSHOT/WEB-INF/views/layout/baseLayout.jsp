@@ -8,16 +8,19 @@
 <html>
 <head>
 <spring:url value="/resources/css/bootstrap.min.css" var="bootstrapCSS"></spring:url>
+<spring:url value="/resources/css/sticky-footer-navbar.css" var="footerCSS"></spring:url>
 
 <spring:url value="/resources/js/jquery.min.js" var="jqueryJS"></spring:url>
 <spring:url value="/resources/js/popper.min.js" var="popperJS"></spring:url>
 <spring:url value="/resources/js/bootstrap.min.js" var="bootstrapJS"></spring:url>
 
 
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title><tiles:insertAttribute name="title" ignore="true"></tiles:insertAttribute></title>
 
 <link href="${bootstrapCSS}" rel="stylesheet" />
+<link href="${footerCSS}" rel="stylesheet" />
+
 <script type="text/javascript" src="${jqueryJS}"></script>
 <script type="text/javascript" src="${popperJS}"></script>
 <script type="text/javascript" src="${bootstrapJS}"></script>

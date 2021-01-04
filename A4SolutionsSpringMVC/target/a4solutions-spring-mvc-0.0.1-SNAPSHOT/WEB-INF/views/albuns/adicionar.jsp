@@ -3,8 +3,7 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 
 <c:url var="actionAdicionar" value="/albuns/adicionar"></c:url>
-<h2>Inserção de Novo Álbum</h2>
-</br>
+ <main role="main" class="container">
 <form:form action="${actionAdicionar}" method="post" modelAttribute="album">
 	<div class="container">
 		
@@ -45,3 +44,4 @@
 		</div>
 	</div>	
 </form:form>
+</main>

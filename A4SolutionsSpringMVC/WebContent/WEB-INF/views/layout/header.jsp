@@ -67,25 +67,31 @@
 								href="/a4solutions-spring-mvc/usuarios/adicionar">Cadastrar</a>
 						</sec:authorize>
 					</div></li>
+					
+					<div class="col-md-9">	
+						 <input class="form-control mr-sm-2" type="search" placeholder="Search"	aria-label="Search" id="txt-pesquisar">
+					</div>
+				
+				<button class="btn btn-outline-success my-2 my-sm-0" id="btn-pesquisar">Search</button>
 
 
-				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-					role="button" data-toggle="dropdown" aria-haspopup="true"
-					aria-expanded="false"> Bem-vindo, ${principal.username} </a>
+				<li class="nav-item dropdown">
+					<a
+						class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+						role="button" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false"> Bem-vindo, ${principal.username} 
+					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="/a4solutions-spring-mvc/logout">Sair</a>
-					</div></li>
+					</div>
+				</li>
 
 
 			</sec:authorize>
 
 		</ul>
 
-		<input class="form-control mr-sm-2" type="search" placeholder="Search"
-			aria-label="Search" id="txt-pesquisar">
-		<button class="btn btn-outline-success my-2 my-sm-0"
-			id="btn-pesquisar">Search</button>
+		
 
 	</div>
 </nav>

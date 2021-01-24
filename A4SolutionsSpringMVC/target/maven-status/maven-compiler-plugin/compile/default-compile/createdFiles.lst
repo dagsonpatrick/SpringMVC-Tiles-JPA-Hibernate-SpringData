@@ -1,0 +1,11 @@
+br\com\a4solutions\springmvc\dominios\Usuario.class
+br\com\a4solutions\springmvc\repositorios\RepositorioAlbum.class
+br\com\a4solutions\springmvc\controllers\AlbumController.class
+br\com\a4solutions\springmvc\repositorios\RepositorioUsuario.class
+br\com\a4solutions\springmvc\controllers\UsuariosController.class
+br\com\a4solutions\springmvc\security\A4SolutionsUserDetailsService.class
+br\com\a4solutions\springmvc\controllers\HomeController.class
+br\com\a4solutions\springmvc\dominios\Album.class
+br\com\a4solutions\springmvc\repositorios\RepositorioMusica.class
+br\com\a4solutions\springmvc\controllers\MusicasController.class
+br\com\a4solutions\springmvc\dominios\Musica.class

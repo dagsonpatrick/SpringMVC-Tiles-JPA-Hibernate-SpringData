@@ -1,7 +1,11 @@
+C:\Users\dagson\git\SpringMVC-Tiles-JPA-Hibernate-SpringData\A4SolutionsSpringMVC\src\br\com\a4solutions\springmvc\repositorios\RepositorioUsuario.java
 C:\Users\dagson\git\SpringMVC-Tiles-JPA-Hibernate-SpringData\A4SolutionsSpringMVC\src\br\com\a4solutions\springmvc\repositorios\RepositorioAlbum.java
 C:\Users\dagson\git\SpringMVC-Tiles-JPA-Hibernate-SpringData\A4SolutionsSpringMVC\src\br\com\a4solutions\springmvc\controllers\AlbumController.java
+C:\Users\dagson\git\SpringMVC-Tiles-JPA-Hibernate-SpringData\A4SolutionsSpringMVC\src\br\com\a4solutions\springmvc\dominios\Usuario.java
+C:\Users\dagson\git\SpringMVC-Tiles-JPA-Hibernate-SpringData\A4SolutionsSpringMVC\src\br\com\a4solutions\springmvc\security\A4SolutionsUserDetailsService.java
 C:\Users\dagson\git\SpringMVC-Tiles-JPA-Hibernate-SpringData\A4SolutionsSpringMVC\src\br\com\a4solutions\springmvc\controllers\MusicasController.java
 C:\Users\dagson\git\SpringMVC-Tiles-JPA-Hibernate-SpringData\A4SolutionsSpringMVC\src\br\com\a4solutions\springmvc\dominios\Musica.java
-C:\Users\dagson\git\SpringMVC-Tiles-JPA-Hibernate-SpringData\A4SolutionsSpringMVC\src\br\com\a4solutions\springmvc\controllers\HelloController.java
 C:\Users\dagson\git\SpringMVC-Tiles-JPA-Hibernate-SpringData\A4SolutionsSpringMVC\src\br\com\a4solutions\springmvc\dominios\Album.java
+C:\Users\dagson\git\SpringMVC-Tiles-JPA-Hibernate-SpringData\A4SolutionsSpringMVC\src\br\com\a4solutions\springmvc\controllers\HomeController.java
 C:\Users\dagson\git\SpringMVC-Tiles-JPA-Hibernate-SpringData\A4SolutionsSpringMVC\src\br\com\a4solutions\springmvc\repositorios\RepositorioMusica.java
+C:\Users\dagson\git\SpringMVC-Tiles-JPA-Hibernate-SpringData\A4SolutionsSpringMVC\src\br\com\a4solutions\springmvc\controllers\UsuariosController.java

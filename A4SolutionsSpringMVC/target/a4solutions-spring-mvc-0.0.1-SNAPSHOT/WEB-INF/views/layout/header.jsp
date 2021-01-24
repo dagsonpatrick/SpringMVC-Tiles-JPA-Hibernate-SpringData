@@ -15,7 +15,7 @@
 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
-			<li class="nav-item active"><a class="nav-link" href="#">Home
+			<li class="nav-item active"><a class="nav-link" href="/a4solutions-spring-mvc/home/home">Home
 					<span class="sr-only">(current)</span>
 			</a></li>
 
@@ -68,17 +68,19 @@
 						</sec:authorize>
 					</div></li>
 					
-					
-					<input class="form-control mr-sm-2" type="search" placeholder="Search"
-			aria-label="Search" id="txt-pesquisar">
-		<button class="btn btn-outline-success my-2 my-sm-0"
-			id="btn-pesquisar">Search</button>
+					<div class="col-md-9">	
+						 <input class="form-control mr-sm-2" type="search" placeholder="Search"	aria-label="Search" id="txt-pesquisar">
+					</div>
+				
+				<button class="btn btn-outline-success my-2 my-sm-0" id="btn-pesquisar">Search</button>
 
 
-				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-					role="button" data-toggle="dropdown" aria-haspopup="true"
-					aria-expanded="false"> Bem-vindo, ${principal.username} </a>
+				<li class="nav-item dropdown">
+					<a
+						class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+						role="button" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false"> Bem-vindo, ${principal.username} 
+					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="/a4solutions-spring-mvc/logout">Sair</a>
 					</div>

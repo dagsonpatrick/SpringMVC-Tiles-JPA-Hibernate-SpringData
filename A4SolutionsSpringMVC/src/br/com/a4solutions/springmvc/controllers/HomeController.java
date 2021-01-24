@@ -18,4 +18,9 @@ public class HomeController {
 		return "home.bemvindo.tiles";
 	}
 	
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String home() {
+		return "home.home.tiles";
+	}
+	
 }

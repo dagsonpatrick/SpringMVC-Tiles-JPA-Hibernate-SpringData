@@ -16,6 +16,8 @@
 
 
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title><tiles:insertAttribute name="title" ignore="true"></tiles:insertAttribute></title>
 
 <link href="${bootstrapCSS}" rel="stylesheet" />
@@ -36,9 +38,5 @@
 	<div style="width: 100%">
 		<tiles:insertAttribute name="footer" ignore="false"></tiles:insertAttribute>
 	</div>
-
-
-
-
 </body>
 </html>
